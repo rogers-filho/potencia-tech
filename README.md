@@ -11,7 +11,19 @@ O sistema deve permitir realizar 3 saques diários com limite máximo de R$ 500,
 ### Operação de Extrato:
 Essa operação deve listar todos os depósitos e saques realizados na conta. Ao final da listagem, deve ser exibido o saldo atual da conta. Os valores devem ser exibidos no formato " R$ xxx.xx "
 
-
+## Desafio 2:
+### Objetivo Geral:
+Separar as funções existentes de saque, depósito e extrato em funções. Criar duas novas funções: cadastrar usuário (cliente) e cadastrar conta bancária.
+### Operação de Saque:
+A função saque deve receber os argumentos apenas por nome (keyword only).
+### Operação de Depósito:
+A função de depósito deve receber os argumentos apenas por posição (positional only).
+### Operação de Extrato:
+A função extrato deve receber os argumentos por posição e nome (positional only e keyword only).
+### Operação Criar Usuário:
+O programa deve armazenar os usuários em uma lista. Um usuário é composto por: nome, data de nascimento, CPF e endereço. O endereço é uma string com o formato: logradouro, nº - bairro - cidade/siga do estado. Deve ser armazenado somente os números do CPF (sem traços e pontos) e não podemos cadastrar mais de um usuário por CPF.
+### Criar Conta Corrente:
+O programa deve armazenar contas em uma lista. Uma conta é composta por: agência, número da conta e usuário. O número de conta é sequencial, iniciando em 1. O número da agência é fixo: "0001". O usuário pode ter mais de uma conta, porém, uma conta pertence a apenas um usuário.
 
 
 
